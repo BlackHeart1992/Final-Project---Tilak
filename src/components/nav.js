@@ -1,3 +1,5 @@
+const { Link } = require("react-router-dom");
+
 function Nav(props) {
   let { title, navLinks } = props; // Destructuring
   let links = navLinks.map(function (text) {
